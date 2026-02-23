@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00bcd4;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.payment-info {
+    text-align: center;
+    margin: 30px;
+}
+
+.payment-info select, 
+.payment-info input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0097a7;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #00bcd4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
